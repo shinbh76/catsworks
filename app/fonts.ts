@@ -10,7 +10,7 @@ const fontOptions = {
 export const asiaGothicLight = localFont({
   src: [
     {
-      path: "../public/fonts/a-asiagothic-light.woff2",
+      path: "../fonts/a-asiagothic-light.woff2",
       weight: "300",
     },
   ],
@@ -23,7 +23,7 @@ export const asiaGothicLight = localFont({
 export const asiaGothicMedium = localFont({
   src: [
     {
-      path: "../public/fonts/a-asiagothic-medium.woff2",
+      path: "../fonts/a-asiagothic-medium.woff2",
       weight: "500",
     },
   ],
@@ -36,7 +36,7 @@ export const asiaGothicMedium = localFont({
 export const asiaGothicBold = localFont({
   src: [
     {
-      path: "../public/fonts/a-asiagothic-bold.woff2",
+      path: "../fonts/a-asiagothic-bold.woff2",
       weight: "700",
     },
   ],
@@ -49,7 +49,7 @@ export const asiaGothicBold = localFont({
 export const asiaGothicExtraBold = localFont({
   src: [
     {
-      path: "../public/fonts/a-asiagothic-extrabold.woff2",
+      path: "../fonts/a-asiagothic-extrabold.woff2",
       weight: "800",
     },
   ],

@@ -45,10 +45,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     setTheme(newTheme);
   };
 
-  if (!mounted) {
-    return <>{children}</>;
-  }
-
+  // Always provide the context, even before mounting
   return (
     <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
       {children}
